@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,19 +11,92 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Артем Исламов - веб-разработчик, фрилансер</title>
+    <title>Диана Ермолова - веб-разработчик, фрилансер</title>
   </head>
   <body>
-    <header class="header">
-      <img src="./images/logo.svg" alt="logo" />
+    <div class="navbar container">
+      <a href="#" class="logo"><img src="./images/logo.svg" alt="logo" /></a>
       <nav class="navigation">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Главная</a>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
         </ul>
       </nav>
+    </div>
+    <!-- ./navbar -->
+
+    <header class="header container">
+      <img src="./images/avatar.png" alt="Диана Ермолова" class="header-photo"/>
+      <!-- /.header photo -->
+      <div class="header-text">
+        <strong class="header-strong">Привет 👋</strong>
+        <h1 class="header-heading">
+          <span class="header-primary"
+            >Я фронтенд-разработчик и веб-дизайнер</span
+          >
+          <br />
+          Меня зовут Диана Ермолова и я делаю сайты для людей и компаний
+        </h1>
+        <div class="header-links">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link"
+                ><img
+                  src="./images/Icons/linkedin.svg"
+                  alt="linkedin"
+                  class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link"
+                ><img
+                  src="./images/Icons/twitter.svg"
+                  alt="twitter"
+                  class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link"
+                ><img
+                  src="./images/Icons/github.svg"
+                  alt="github"
+                  class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link"
+                ><img
+                  src="./images/Icons/stackoverflow.svg"
+                  alt="stackoverflow"
+                  class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link"
+                ><img
+                  src="./images/Icons/youtube.svg"
+                  alt="youtube"
+                  class="social-logo"
+              /></a>
+            </li>
+          </ul>
+          <a href="#" class="cv-download" download>
+            <img
+              src="./images/Icons/download.svg"
+              alt="download"
+              class="cv-icon"
+            />
+            <span class="cv-text">Скачать резюме</span>
+          </a>
+        </div>
+        <!-- /.header-links -->
+      </div>
+      <!-- /.header-text -->
     </header>
+    <!-- /.header -->
   </body>
 </html>
