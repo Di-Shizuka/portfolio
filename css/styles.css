@@ -50,7 +50,7 @@ li {
   display: flex;
   align-items: center;
   padding-top: 24px;
-  padding-bottom: 72px;
+  padding-bottom: 40px;
 }
 
 .header-photo {
@@ -98,10 +98,6 @@ li {
   padding: 8px;
 }
 
-/* .social-logo {
-  display: inline-block;
-} */
-
 .cv-download {
   display: flex;
   align-items: center;
@@ -115,4 +111,84 @@ li {
 
 .cv-icon {
   margin-right: 4px;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #bf7506;
+  margin: 32px 0;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.card-text-wrapper {
+  margin: 16px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #bf7506;
+  margin-bottom: 8px;
+  
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #211b12;
+  border: 1px solid #bf7506;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  margin-bottom: 17px;
+}
+
+.card-buttons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.card-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-bottom: 2px solid #bf7506;
+  padding: 6px 8px;
+}
+
+.card-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
 }
